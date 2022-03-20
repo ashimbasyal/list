@@ -50,6 +50,7 @@ class _Page1State extends State<Page1> {
           height: MediaQuery.of(context).size.height,
           child: ListView.builder(
             scrollDirection: Axis.vertical,
+            itemCount:titleList.length,
             itemBuilder: (context, index) {
               return GestureDetector(
                 onTap: () {},
